@@ -26,7 +26,7 @@ public class Bai_03 {
         }
     }
     public static void main(String[] args) {
-        String[] names = new String[] {"Sach A" , "Sach B" , "Sach C" , "Sach D" , "Sach E"};
+        String[] names = new String[] {"Doraemon" , "Conan" , "Dragon ball" , "No pain, No gain" , "lap trinh c"};
         int[] quantities = new int[] {12 , 24 , 55 , 55 , 1};
         System.out.println("Sach co so luong lon :");
         maxQuantityOfBooks(names , quantities);
