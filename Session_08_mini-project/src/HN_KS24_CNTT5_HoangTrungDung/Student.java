@@ -44,4 +44,13 @@ public class Student {
         this.score = score;
     }
 
+    public String toString() {
+        System.out.println("===== QUẢN LÝ ĐIỂM SINH VIÊN =====");
+        System.out.println("ID: " + id);
+        System.out.println("Họ tên sinh viên: " + name);
+        System.out.println("Điểm sinh viên: " + score);
+        System.out.println("Học lực sinh viên: " + getRank());
+        System.out.println("==================================");
+        return "";
+    }
 }
