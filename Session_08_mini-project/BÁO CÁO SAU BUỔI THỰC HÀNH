@@ -1,0 +1,79 @@
+BÁO CÁO SAU BUỔI THỰC HÀNH
+Môn học: Lập trình Java
+Tên buổi thực hành: Mini Project – Xử lý mảng, chuỗi & OOP trong Java
+Thời gian thực hành: 120 phút
+Sinh viên: Hoàng Trung Dũng
+Mã sinh viên: PTIT-HN-151
+Lớp: CNTT5
+Nhóm: 4
+I. NỘI DUNG ĐÃ THỰC HÀNH
+1. Giải pháp thực hiện
+Trong buổi thực hành, em xây dựng Mini Project Java kết hợp:
+•	Xử lý mảng, chuỗi
+•	Áp dụng OOP (Class, Object, Constructor, Encapsulation)
+•	Tổ chức chương trình theo menu
+Chương trình chia thành các lớp:
+•	Student: quản lý thông tin sinh viên
+•	StudentManager: xử lý danh sách sinh viên
+•	Main: điều khiển menu chương trình
+=> Mỗi chức năng được tách thành phương thức riêng, giúp code rõ ràng, dễ mở rộng và bảo trì.
+2. Các câu hỏi & phản biện
+Câu hỏi từ nhóm khác
+1. Trong System.out.println(""%-8s) ý nghĩa của -8 là gì nếu xóa đi nó có chạy được không
+trả lời: Có chạy được - Ý nghĩa là độ rộng -8 là là 8 ký tự
+
+2. trong vòng for cho i = 10 nếu in 
+sout(i--);
+sout(--i); 
+in ra mấy và giải thích
+
+3. Tại sao trong hàm không dùng static lại dùng Method thường
+Trả lời: Dùng Method thường vì dữ liệu (như danh sách sinh viên) cần được quản lý độc lập cho từng đối tượng (Object). Nếu dùng Static, dữ liệu sẽ bị chia sẻ dùng chung cho tất cả các đối tượng, dẫn đến việc sửa dữ liệu ở nơi này sẽ làm sai lệch dữ liệu ở nơi khác.
+
+4. Một object được cấp phát bộ nhớ khi nào
+Trả lời: Một object thực sự được cấp phát bộ nhớ khi toán tử new được thực thi tại thời điểm chạy (Runtime), và bộ nhớ này được lấy từ vùng nhớ Heap.
+Câu hỏi phản biện
+Câu hỏi: final Student s = new Student("SV01", "An"); -> Khi thay đổi s.setname("Bình"); có thay đổi được không vì sao
+II. CÁC CHỨC NĂNG ĐÃ THỰC HIỆN
+1. Quản lý sinh viên
+•	Nhập mã SV, tên, điểm
+•	Kiểm tra trùng mã sinh viên
+•	Xếp loại học lực: Giỏi / Khá / Trung bình
+•	Hiển thị danh sách sinh viên
+2. Kỹ thuật áp dụng
+•	Mảng đối tượng Student[]
+•	Getter / Setter
+•	Override toString()
+•	Vòng lặp for, do-while
+•	Xử lý nhập dữ liệu với Scanner
+III. CÔNG VIỆC ĐÃ THỰC HIỆN
+1. Cá nhân
+•	Phân tích yêu cầu bài toán
+•	Thiết kế menu chương trình
+•	Viết class và phương thức xử lý
+•	Test chương trình với nhiều dữ liệu
+2. Nhóm
+•	Thảo luận thuật toán
+•	Góp ý tối ưu code
+•	Hỗ trợ sửa lỗi logic
+IV. KẾT QUẢ ĐẠT ĐƯỢC
+Sau buổi thực hành, em:
+1.	Nắm vững xử lý mảng & chuỗi trong Java
+2.	Hiểu rõ mô hình OOP cơ bản
+3.	Biết xây dựng chương trình theo menu
+4.	Viết được chương trình Java hoàn chỉnh, chạy ổn định
+V. KHÓ KHĂN GẶP PHẢI
+•	Lỗi nhập dữ liệu giữa nextInt() và nextLine()
+•	Dễ xảy ra lỗi logic nếu không kiểm soát vòng lặp
+•	Cần xử lý kỹ chuỗi có khoảng trắng và ký tự đặc biệt
+VI. KINH NGHIỆM RÚT RA
+•	Chia nhỏ chương trình thành các hàm
+•	Đặt tên biến, hàm rõ nghĩa
+•	Kiểm tra dữ liệu đầu vào
+•	Test nhiều trường hợp khác nhau
+VII. ĐỀ XUẤT
+•	Nên tăng số lượng mini project để sinh viên rèn tư duy lập trình và OOP.
+VIII. KẾT LUẬN
+•	Em tự đánh giá mức độ hiểu bài trung bình-khá
+•	Mini project giúp em nâng cao tư duy thuật toán và kỹ năng lập trình Java thực tế
+
